@@ -1,3 +1,7 @@
+interface Window {
+    store: store.IStore;
+}
+
 declare var store: store.IStore;
 
 declare namespace store {
